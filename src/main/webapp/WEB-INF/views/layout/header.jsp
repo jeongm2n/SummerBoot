@@ -30,7 +30,7 @@
 <nav class="navbar navbar-expand-lg navbar-light shadow">
     <div class="container d-flex justify-content-between align-items-center">
 
-        <a class="navbar-brand text-success logo h1 align-self-center" href="index.jsp">
+        <a class="navbar-brand text-washboot logo medium h1 align-self-center" href="#">
             Wash Boot
         </a>
 
@@ -42,19 +42,13 @@
             <div class="flex-fill">
                 <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
                     <li class="nav-item">
-                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false">지점</a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">서울</a></li>
-                            <li><a class="dropdown-item" href="#">경기 군포</a></li>
-                            <li><a class="dropdown-item" href="#">경기 평택</a></li>
-                            <li><a class="dropdown-item" href="#">대구</a></li>
-                        </ul>
+                        <a class="nav-link" href="#">지점</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about.html">예약</a>
+                        <a class="nav-link" href="#">예약</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="shop.html">세차용품</a>
+                        <a class="nav-link" href="#">세차용품</a>
                     </li>
                 </ul>
             </div>

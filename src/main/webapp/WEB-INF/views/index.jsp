@@ -10,7 +10,9 @@
     <title>Wash Boot</title>
 </head>
 <body>
+${data}
     <%@ include file="layout/header.jsp"%>
+    <%@ include file="layout/body.jsp"%>
     <br>
     <br>
     <br>

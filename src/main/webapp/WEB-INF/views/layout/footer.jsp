@@ -16,12 +16,12 @@
     <div class="container">
         <div class="row">
 
-            <div class="col-md-4 pt-5">
-                <h2 class="h2 text-success border-bottom pb-3 border-light logo">Wash Boot</h2>
+            <div class="text-center col-md-4 pt-5">
+                <h2 class="h2 text-washboot border-bottom pb-3 border-light logo">Wash Boot</h2>
                 <ul class="list-unstyled text-light footer-link-list">
                     <li>
                         <i class="fas fa-map-marker-alt fa-fw"></i>
-                        서울특별시 광진구 능동로 209
+                        본점 서울특별시 광진구 능동로 209
                     </li>
                     <li>
                         <i class="fa fa-phone fa-fw"></i>
@@ -34,17 +34,17 @@
                 </ul>
             </div>
 
-            <div class="col-md-4 pt-5">
-                <h2 class="h2 text-light border-bottom pb-3 border-light">세차장지점</h2>
+            <div class="text-center col-md-4 pt-5">
+                <h2 class="h2 text-light border-bottom pb-3 border-light">지점</h2>
                 <ul class="list-unstyled text-light footer-link-list">
-                    <li><a class="text-decoration-none" href="#">서울</a></li>
-                    <li><a class="text-decoration-none" href="#">경기 군포</a></li>
-                    <li><a class="text-decoration-none" href="#">경기 평택</a></li>
-                    <li><a class="text-decoration-none" href="#">대구</a></li>
+                    <li><a class="text-decoration-none" href="#">서울 본점</a></li>
+                    <li><a class="text-decoration-none" href="#">경기군포점</a></li>
+                    <li><a class="text-decoration-none" href="#">경기평택점</a></li>
+                    <li><a class="text-decoration-none" href="#">대구점</a></li>
                 </ul>
             </div>
 
-            <div class="col-md-4 pt-5">
+            <div class="text-center col-md-4 pt-5">
                 <h2 class="h2 text-light border-bottom pb-3 border-light">고객센터</h2>
                 <ul class="list-unstyled text-light footer-link-list">
                     <li><a class="text-decoration-none" href="#">상담전화 02-2205-0109</a></li>

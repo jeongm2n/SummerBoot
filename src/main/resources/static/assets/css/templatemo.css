@@ -26,7 +26,37 @@ Table of contents
 --------------------------------------------- */
 
 
+#checkID {cursor: pointer;}
 
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* .dropdown-menu .message-body:hover {
+	color : #FD8008;
+} */
+
+/* .dropdown-menu > .dropdown-item:hover{
+	color:#FD8008;background-color:#f8f9fa
+} */
+
+/* .dropdown-menu a:hover {color:FD8008; background-color: #f1f1f1} */
+.dropdown-item:focus,.dropdown-item:hover{
+	color:#FD8008;
+	background-color:#f8f9fa
+}
+
+.d-flex {
+	justify-content: center;
+}
+
+.dropdown-menu-end {
+	right: -4rem;
+}
+
+.dropdown-menu-start {
+	left : -2.5rem;
+}
 
 /* Typography */
 body, ul, li, p, a, label, input, div {
@@ -34,6 +64,25 @@ body, ul, li, p, a, label, input, div {
   font-size: 18px !important;
   font-weight: 300 !important;
 }
+
+html, body {height : 100%;}
+
+#wrap {
+    min-height: 100%;
+    position: relative;
+    margin-bottom: 20%;
+}
+
+.title {
+	width: 30%;
+    padding-top: 2%;
+}
+
+footer {
+	position: relative;
+	transform: translateY(-100%);
+}
+
 .h1 {
   font-family: 'Roboto', sans-serif;
   font-size: 48px !important;
@@ -49,10 +98,25 @@ body, ul, li, p, a, label, input, div {
   font-size: 22px !important;
 }
 /* General */
-.logo { font-weight: 500 !important;}
+.logo {
+	font-weight: 800 !important;
+	font-family: 'Handjet', cursive !important;
+	font-family: 'IBM Plex Sans KR', sans-serif;
+}
+.tel {
+	width:25%;
+	display:inline;
+}
+
+.tel2 {
+	width:33%;
+	display:inline;
+}
+
 .text-warning {  color: #ede861 !important;}
 .text-muted { color: #bcbcbc !important;}
 .text-success { color: #59ab6e !important;}
+.text-washboot { color:#FD8008 !important;}
 .text-light { color: #cfd6e1 !important;}
 .bg-dark { background-color: #212934 !important;}
 .bg-light { background-color: #e9eef5 !important;}
@@ -62,6 +126,16 @@ body, ul, li, p, a, label, input, div {
   background-color: #59ab6e !important;
   border-color: #56ae6c !important;
 }
+.btn-washboot {
+	background-color: #FD8008;
+	color : white;
+}
+.btn-join {
+	background-color: white;
+	color: #FD8008;
+	border: 1px solid #FD8008;
+}
+
 .pagination .page-link:hover {color: #000;}
 .pagination .page-link:hover, .pagination .page-link.active {
   background-color: #69bb7e;
@@ -71,7 +145,7 @@ body, ul, li, p, a, label, input, div {
 #templatemo_nav_top { min-height: 40px;}
 #templatemo_nav_top * { font-size: .9em !important;}
 #templatemo_main_nav a { color: #212934;}
-#templatemo_main_nav a:hover { color: #69bb7e;}
+#templatemo_main_nav a:hover { color: #FD8008;}
 #templatemo_main_nav .navbar .nav-icon { margin-right: 20px;}
 
 /* Hero Carousel */
@@ -138,7 +212,7 @@ body, ul, li, p, a, label, input, div {
 .form-control { border: 1px solid #e8e8e8;}
 /* Footer */
 #tempaltemo_footer a { color: #dcdde1;}
-#tempaltemo_footer a:hover { color: #68bb7d;}
+#tempaltemo_footer a:hover { color: #FD8008;}
 #tempaltemo_footer ul.footer-link-list li { padding-top: 10px;}
 #tempaltemo_footer ul.footer-icons li {
   width: 2.6em;
