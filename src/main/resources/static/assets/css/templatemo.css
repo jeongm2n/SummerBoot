@@ -25,22 +25,9 @@ Table of contents
 16. Extra large devices (large desktops, 1200px and up)
 --------------------------------------------- */
 
-
 #checkID {cursor: pointer;}
 
-.dropdown:hover .dropdown-menu {
-  display: block;
-}
-
-/* .dropdown-menu .message-body:hover {
-	color : #FD8008;
-} */
-
-/* .dropdown-menu > .dropdown-item:hover{
-	color:#FD8008;background-color:#f8f9fa
-} */
-
-/* .dropdown-menu a:hover {color:FD8008; background-color: #f1f1f1} */
+/* nav바 */
 .dropdown-item:focus,.dropdown-item:hover{
 	color:#FD8008;
 	background-color:#f8f9fa
@@ -56,6 +43,35 @@ Table of contents
 
 .dropdown-menu-start {
 	left : -2.5rem;
+}
+
+
+/* 세차장리스트 */
+.card {
+	flex-direction: row;
+}
+
+.washList {
+	width:40%;
+}
+
+.list {
+	margin-bottom : 1.5rem;
+	vertical-align : middle;
+}
+
+.star {
+	margin-bottom:2rem;
+}
+
+.card-body {
+	display: grid;
+    align-content: space-evenly;
+    padding : 1rem 2rem;
+}
+
+i {
+	margin-right:5px;
 }
 
 /* Typography */
@@ -80,7 +96,7 @@ html, body {height : 100%;}
 
 footer {
 	position: relative;
-	transform: translateY(-100%);
+	/* transform: translateY(-100%); */
 }
 
 .h1 {

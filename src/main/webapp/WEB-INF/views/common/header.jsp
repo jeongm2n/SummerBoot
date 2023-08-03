@@ -22,7 +22,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Handjet:wght@700;800;&family=IBM+Plex+Sans+KR:wght@300&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" />
-
+	<% request.setCharacterEncoding("utf-8"); %>
 </head>
 
 <body>
@@ -87,9 +87,9 @@
                         <i class="fa fa-fw fa-user text-dark mr-3"></i>
                         <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">+99</span>
                     </a> -->
-                    <ul class="navbar-nav flex-row ms-auto align-items-center justify-content-end">
+                    <ul class="navbar-nav flex-row align-items-center justify-content-end">
 						<li class="nav-item dropdown">
-						  <a class="nav-link nav-icon-hover menu" href="#" id="drop2" data-bs-toggle="dropdown" aria-expanded="false">
+						  <a class="nav-icon-hover menu" href="#" id="drop2" data-bs-toggle="dropdown" aria-expanded="false">
 					        <i class="fa fa-fw fa-user text-dark mr-3"></i>
 						  </a>
 						  <div class="dropdown-menu dropdown-menu-end dropdown-menu-animate-up" aria-labelledby="drop2">

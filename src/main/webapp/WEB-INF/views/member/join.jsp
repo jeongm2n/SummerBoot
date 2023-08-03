@@ -8,6 +8,9 @@
 <script src="http://code.jquery.com/jquery-latest.min.js"></script>
 <meta charset="UTF-8">
 
+<%@ include file="../common/header.jsp" %>
+<link rel="stylesheet" href="${path}/resources/assets/css/use_lee.css">
+
 <title>회원가입</title>
 
 <script>
@@ -51,7 +54,7 @@
 	   		alert("비밀번호를 입력하세요.");
 	   		return;
 	   	} else if($("#check_pwd").val().length == 0){
-	   		alert("중복 확인.");
+	   		alert("비밀번호 확인.");
 	   		return;
 	   	} else if($("#name").val().length == 0) {
 	   		alert("이름을 입력하세요.");
@@ -70,12 +73,22 @@
 	        setFocusToInputObject(oInput);
 	    }
 	 }
+	 
+	 $(document).on('input', ''#check_pwd', function() {
+		 	var pwd = $("#pwd").val();
+		    var ch_pwd = $(this).val();
+		    if(ch_pwd == pwd) {
+		    	$(".pw_check_notice").hide();
+				return true;
+		    } else {
+		    	$(".pw_check_notice").show();
+				return false;
+		    }
+		});
 </script>
 
 </head>
-<body>
-	<%@ include file="../common/header.jsp" %>
-	
+<body> 
 	<div class="container py-5" id="wrap">
        	<div class="col-lg-6 m-auto ">
 	       	<h2 class="h2 text-center border-bottom pb-3" style="padding-top: 5.5rem!important;">회원가입</h2>
@@ -94,7 +107,10 @@
                     </div>
                     <div class="input-group mb-3">
                         <label for="inputemail" class="title">비밀번호 확인</label>
-                        <input type="password" class="form-control mt-1" id="check_pwd" name="check_pwd" placeholder="PASSWORD" value="1111">
+                        <input type="password" class="form-control mt-1" id="check_pwd" name="check_pwd" placeholder="PASSWORD">
+                    </div>
+                    <div class="mb-3">
+                    	<span class="pw_check_notice" style="color: red;">비밀번호 불일치</span>
                     </div>
                 </div>
                 <div class="input-group mb-3">

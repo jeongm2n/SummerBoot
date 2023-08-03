@@ -9,6 +9,9 @@
 <meta charset="UTF-8">
 <title>로그인</title>
 
+<%@ include file="../common/header.jsp" %>
+<link rel="stylesheet" href="${path}/resources/assets/css/use_lee.css">
+
 <script>
 	$(document).on('click', '#login' , function() {
 	   if($("#id").val().length == 0){
@@ -28,8 +31,6 @@
 
 </head>
 <body>
-	<%@ include file="../common/header.jsp" %>
-	
 	<div class="container py-5" id="wrap">
        	<div class="col-lg-6 m-auto ">
 	       	<h2 class="h2 text-center border-bottom pb-3" style="padding-top: 5.5rem!important;">로그인</h2>
